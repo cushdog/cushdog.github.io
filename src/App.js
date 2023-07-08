@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faX, faUser, faClipboard, faLaptopFile, faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import Card from './Components/Card';
 import BasicTabs from '../src/Tabs/BasicTabs.js';
-import ColorTabs from '../src/Tabs/ColoredTabs.js';
+// import ColorTabs from '../src/Tabs/ColoredTabs.js';
 import MobileTabs from './Tabs/MobileTabs';
 
 import './App.css';
@@ -26,11 +26,11 @@ import { useEffect } from 'react';
 import Resume from '../src/images/BloomingtonResume.pdf';
 import Car from '../src/images/car.jpg'
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import 'swiper/css/pagination';
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+// import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 
 
