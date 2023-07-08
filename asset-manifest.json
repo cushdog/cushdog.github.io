@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final-site/static/css/main.18e61040.css",
-    "main.js": "/final-site/static/js/main.6cd899db.js",
+    "main.css": "/final-site/static/css/main.242f7f98.css",
+    "main.js": "/final-site/static/js/main.e22bad80.js",
     "static/js/787.7a700605.chunk.js": "/final-site/static/js/787.7a700605.chunk.js",
     "static/media/portrait.png": "/final-site/static/media/portrait.f1eb2d04f148752f0f6c.png",
     "static/media/roof.jpg": "/final-site/static/media/roof.56e5410e1a26fdce6c32.jpg",
@@ -14,12 +14,12 @@
     "static/media/MinecraftBold-nMK1.otf": "/final-site/static/media/MinecraftBold-nMK1.a9b3bc2a90dd462c9c18.otf",
     "static/media/MinecraftRegular-Bmg3.otf": "/final-site/static/media/MinecraftRegular-Bmg3.82ba08919dc2add9422f.otf",
     "index.html": "/final-site/index.html",
-    "main.18e61040.css.map": "/final-site/static/css/main.18e61040.css.map",
-    "main.6cd899db.js.map": "/final-site/static/js/main.6cd899db.js.map",
+    "main.242f7f98.css.map": "/final-site/static/css/main.242f7f98.css.map",
+    "main.e22bad80.js.map": "/final-site/static/js/main.e22bad80.js.map",
     "787.7a700605.chunk.js.map": "/final-site/static/js/787.7a700605.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18e61040.css",
-    "static/js/main.6cd899db.js"
+    "static/css/main.242f7f98.css",
+    "static/js/main.e22bad80.js"
   ]
 }
