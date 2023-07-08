@@ -1,0 +1,88 @@
+/* .card_wrapper {
+    margin-top: -7vh;
+}
+  
+.card_img {
+    width: 37.5vh;
+    height: 36vh;
+    border-radius: 4%;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 37.5vw;
+    height: 46vh;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 4%;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+    border-radius: 4%;
+}
+
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 4%;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 4%;
+}
+
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 4%;
+} */
+
+#background_test {
+    visibility: hidden;
+}
+
+.backgrounder_test {
+    background-color: green;
+    width: 20vh;
+    height: 20vh;
+}
+
+#portfolio_text {
+    margin-bottom: 3vh;
+}
+
+.portfolio {
+    margin: 100px;
+    display: grid;
+}
+
+.elden_ring {
+    font-size: 1.4em;
+}
+
+.flip_text {
+    margin: 1vw;
+}
+
+.tester_paragarph {
+    color: white;
+}

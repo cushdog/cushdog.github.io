@@ -1,0 +1,37 @@
+.color_setter {
+    background-color: #222725;
+    border: 1px solid transparent;
+    margin-top: -0.35em;
+}
+
+.about {
+    /* text-align: center; */
+    /* display: grid; */
+    margin: 100px;
+    
+}
+
+.wrappingimage  {  
+    float: right;   
+    margin: 30px 12px 3px 4px;
+}
+
+.abt_picture {
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #151818;
+    max-width: 300px;
+    height: auto;
+}
+
+.abt_text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin: 20px;
+    color: #9DACB2;
+    line-height: 2em;
+}
+
+.about_bullets {
+    line-height: 2em;
+}

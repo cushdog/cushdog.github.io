@@ -1,0 +1,74 @@
+.card {
+    /* color: #4D5854; */
+    background-color: #4D5854 !important;
+    border-radius: 0.5em;
+    width: 20rem;
+    height: fit-content !important;
+    margin-bottom: 2vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 1.2em; 
+}
+
+#title_row {
+    margin-top: 20px;
+}
+
+#whole_container {
+    margin-top: 40px;
+}
+
+#folder {
+    padding-right:6em;
+}
+
+#languages_row {
+    padding-top: 5vh;
+    margin-right: 10px;
+}
+
+#first_row {
+    padding-left: 1em;
+}
+
+#description_row {
+    font-weight: 500;
+}
+
+.description, .title, .languages {
+    color: #A7C4C2;
+}
+
+#image {
+    padding-right: 4px;
+}
+
+
+@media only screen and (min-width:1000px) {
+    #folder {
+        padding-right: 20vh;
+    }
+
+
+    #languages_row {
+        padding-top: 5ch;
+        padding-left: 1em;
+    }
+    .card {
+        margin-right: 10px;
+        width: 35vh;
+    }
+    .desktop_card_wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 40vh); /* Three columns */
+        gap: 1vh;
+    }
+    .title, .description {
+        margin: 15px;
+    }
+}

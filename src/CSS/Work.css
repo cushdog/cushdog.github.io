@@ -1,0 +1,169 @@
+/* .swiper {
+    width: 67%;
+    height: 110%;
+}
+  
+.swiper-slide:nth-child(1) {
+    background: linear-gradient(132deg, #7A29D8, #0A65C2);
+}
+
+.swiper-slide:nth-child(2) {
+    background: #99ffcc;
+}
+
+.swiper-slide:nth-child(3) {
+    background: #FF5F05;
+}
+
+.slide {
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+}
+  
+.slide::before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.slide > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button {
+    display: flex;
+    position: absolute;
+    top: calc(50% - 12px);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.swiper-button svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: black;
+}
+
+.image-swiper-button-prev {
+    left: 5px;
+}
+.image-swiper-button-next {
+    right: 5px;
+}
+.swiper-button-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #fff;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet {
+    background-color: #fff;
+    opacity: 1;
+}
+
+.igl_text {
+    color: #13294B;
+}
+*/
+
+
+/* .second_list_header {
+    list-style-type: none;
+}
+
+.second_bullet_point::before {
+    content: "▹    "; 
+    margin-left: -20px; 
+    margin-right: 10px; 
+    color: black;
+}
+
+.second_bullet_point {
+    line-height: 2em;
+    font-size: 3vh;
+}
+
+.first_bullet_point {
+    color: #223843;
+}
+
+.first_bullet_point::before {
+    content: "▹    "; 
+    margin-left: -20px; 
+    margin-right: 10px; 
+    color: #77BA99; 
+}
+
+.first_bullet_point, .second_bullet_point {
+    margin-right: 1em;
+    line-height: 2em;
+    font-size: 3vh;
+} */
+
+
+
+
+li:before { 
+    content: "▹"; 
+    margin-left: -20px;
+    margin-right: 10px; 
+    color: #77BA99;
+}
+  
+ul {
+    list-style-type: none;
+} 
+
+#mobile_tabs {
+    visibility: hidden;
+    display: none;
+}
+
+.job_title {
+    color: white;
+    font-size: 4vh;
+}
+
+.job_date, .job_desc {
+    color: white;
+    animation: fadeIn 1s;
+}
+
+.job_desc {
+    margin-left: -21px;
+}
+
+.tester_list li {
+    margin-bottom: 3vh;
+}
+
+.slide-tab {
+    margin-top: -6vh;
+}
+
+/* .fade-in-image { animation: fadeIn 5s; } */
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(100%); }
+    100% { opacity: 1; transform: translateY(0%); }
+}
+
+@media only screen and (min-width:1000px){
+    .skills {
+        margin: 100px;
+    }
+}

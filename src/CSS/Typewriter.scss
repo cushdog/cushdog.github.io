@@ -1,0 +1,8 @@
+@import './typed.scss';
+
+.typed {
+    color: #3A86FF;
+    @include typed(
+		"math geek", "developer", "skater", 1, (caret-width: 0.1em)
+	);
+}

@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+@font-face { font-family: Alata; src: url('fonts/Alata-Regular.ttf'); } 
+@font-face { font-family: Alata; font-weight: bold; src: url('fonts/Alata-Regular.ttf');}
+
+@font-face { font-family: NTR; src: url('fonts/NTR-Regular.ttf'); } 
+@font-face { font-family: NTR; font-weight: bold; src: url('fonts/NTR-Regular.ttf');}
+
+@font-face { font-family: MC; src: url('fonts/minecraft-font/MinecraftRegular-Bmg3.otf'); } 
+@font-face { font-family: MC; font-weight: bold; src: url('fonts/minecraft-font/MinecraftBold-nMK1.otf');}
+
+* {
+  font-family: NTR, sans-serif;
+  line-height: 1em;
+  /* margin: 50px; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer {
+  text-align: right;
+  padding: 5px;
+  background-color: #222725;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.stroke_text {
+  /* margin-left: 15px; */
+  font-size: 40px;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stroke_text::after {
+  display: block;
+  content: '';
+  margin-top: 10px;
+  border-bottom: 0.5px solid #9DACB2;
 }

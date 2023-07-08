@@ -1,0 +1,66 @@
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 0.7s;
+  }
+  
+  
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.roof_pic {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.pic_text {
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    font-family: NTR, sans-serif;
+}
+
+.resume {
+    text-align: center;
+}
+
+.pic_text_wrapper {
+    z-index: 4;
+    /* height: 100vh;
+    padding: 150px 75px;
+    text-align: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#typewriter {
+    color: #0072ef;
+    font-weight: bold;
+}
+
+#cursor {
+    color: #0072ef;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+}
+
+.home {
+    border: 1px solid transparent;
+}
