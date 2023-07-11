@@ -10,6 +10,7 @@ import Card from './Components/Card';
 import BasicTabs from '../src/Tabs/BasicTabs.js';
 // import ColorTabs from '../src/Tabs/ColoredTabs.js';
 import MobileTabs from './Tabs/MobileTabs';
+import P5Sketch from './Components/TreeDrawing';
 
 import './App.css';
 import './CSS/About.css';
@@ -158,6 +159,7 @@ function App() {
           </div> */}
           <div className='pic_text_wrapper' id='typing_text'>
             <h1>Hey, I'm Tyler <br /> I'm a <span className='typed'></span></h1>
+            {/* <P5Sketch className="test_style" /> */}
           </div>
 
 
