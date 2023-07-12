@@ -8,7 +8,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faX, faUser, faClipboard, faLaptopFile, faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import Card from './Components/Card';
 import BasicTabs from '../src/Tabs/BasicTabs.js';
-// import ColorTabs from '../src/Tabs/ColoredTabs.js';
 import MobileTabs from './Tabs/MobileTabs';
 import P5Sketch from './Components/TreeDrawing';
 
@@ -27,11 +26,8 @@ import { useEffect } from 'react';
 import Resume from '../src/images/BloomingtonResume.pdf';
 import Car from '../src/images/car.jpg'
 
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import 'swiper/css/pagination';
-// import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 
 
@@ -201,50 +197,6 @@ function App() {
           <section className='hidden'>
             <div className='skills' id='skills'>
               <h1 className='stroke_text'>/Work</h1>
-
-              {/* <div className='swiper_wrapper' style={{ height: "50vh", position: "relative" }}>
-
-
-                <Swiper
-                  navigation={{
-                    nextEl: ".image-swiper-button-next",
-                    prevEl: ".image-swiper-button-prev",
-                    disabledClass: "swiper-button-disabled"
-                  }}
-                  pagination={{ clickable: true }}
-                  modules={[Navigation, Pagination]}
-                  className="mySwiper"
-                >
-                    <div className="swiper-button image-swiper-button-next">
-                      <IoIosArrowForward />
-                    </div>
-                    <div className="swiper-button image-swiper-button-prev">
-                      <IoIosArrowBack />
-                    </div>
-                  <SwiperSlide className="swiper_slide">
-                    <div className='slide'>
-                      <h1 className='tester_header'>CS 128 Course Assistant</h1>
-                      <ul className='first_list_header'>
-                        <li className='first_bullet_point'>Developed a grade management system with JavaScript that calculated class grades for the entire course</li>
-                        <li className='first_bullet_point'>Helped to develop and draft the prompts for course material that explained foundational CS concepts</li>
-                        <li className='first_bullet_point'>Hosted and coordinated multiple office hours every week</li>
-                      </ul>
-                    </div>
-
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper_slide">
-                    <div className='slide'>
-                      <h1 className='tester_header'>CS 173 Course Assistant</h1>
-                      <ul className='second_list_header'>
-                        <li className='second_bullet_point'>Created tutoring approach that best fit each students' learning style</li>
-                        <li className='second_bullet_point'>Assess and troubleshoot conceptual misunderstandings brought by students</li>
-                        <li className='second_bullet_point'>Led large gatherings of the class where new material was learned and practiced</li>
-                        <li className='second_bullet_point'>Developed content that was used by the entire class</li>
-                      </ul>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
-              </div> */}
 
               <div id='desktop_tabs'>
                 <BasicTabs />

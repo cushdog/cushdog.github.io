@@ -288,7 +288,7 @@ export default function VerticalTabs() {
       }}
     >
       <Tabs
-        TabIndicatorProps={{ style: { background: 'green' } }} // CHANGE INDICATOR COLOR HERE
+        TabIndicatorProps={{ style: { background: '#64ffda' } }} // CHANGE INDICATOR COLOR HERE
         orientation="vertical"
         variant="scrollable"
         value={value}
@@ -299,7 +299,7 @@ export default function VerticalTabs() {
           borderRight: 1,
           borderColor: 'divider',
           '.Mui-selected': {
-            color: `green`, // CHANGE THE COLOR OF HIGHLIGHTED TAB HERE
+            color: `#64ffda`, // CHANGE THE COLOR OF HIGHLIGHTED TAB HERE
             fontFamily: 'NTR, sans-serif',
             fontSize: '2vh',
           },

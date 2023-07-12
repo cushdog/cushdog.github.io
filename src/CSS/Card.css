@@ -19,21 +19,35 @@
     margin-top: 20px;
 }
 
-#whole_container {
-    margin-top: 40px;
-}
 
 #folder {
-    padding-right:6em;
+    padding-right: 6em;
+    /* margin-right: 8px; */
+}
+
+
+#first_row {
+    padding-left: 1em;
+    display: flex !important;
+    align-items: center !important;
+}
+
+
+#image {
+    padding-right: 4px;
+}
+
+#github {
+    margin-right: 8px;
+}
+
+#whole_container {
+    margin-top: 40px;
 }
 
 #languages_row {
     padding-top: 5vh;
     margin-right: 10px;
-}
-
-#first_row {
-    padding-left: 1em;
 }
 
 #description_row {
@@ -44,9 +58,6 @@
     color: #A7C4C2;
 }
 
-#image {
-    padding-right: 4px;
-}
 
 
 @media only screen and (min-width:1000px) {
