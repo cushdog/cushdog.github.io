@@ -1,5 +1,6 @@
 let theta;
 let tracker = 350;
+let line_height = 40;
 
 function setup() {
   createCanvas(710, 400);
@@ -7,10 +8,10 @@ function setup() {
 
 function draw() {
   console.log(tracker);
-  strokeWeight(3.5); // set thickness of the line
+  strokeWeight(0.9); // set thickness of the line
   background(0);
   frameRate(30);
-  stroke('#138A36'); // set the color of the line
+  stroke('#00A9A5'); // set the color of the line
   // Let's pick an angle 0 to 90 degrees based on the mouse position
   // let a = (mouseY / width) * 90;
   let a = tracker;
@@ -19,12 +20,12 @@ function draw() {
   // Start the tree from the bottom of the screen
   translate(width/2,height);
   // Draw a line 120 pixels
-  line(0,0,0,-120);
+  line(0,0,0,-line_height);
   // Move to the end of that line
-  translate(0,-120);
+  translate(0,-line_height);
   // Start the recursive branching!
-  branch(120);
-  tracker = (tracker+1) % 360;
+  branch(line_height);
+  tracker = (tracker + 1) % 360;
 
 }
 

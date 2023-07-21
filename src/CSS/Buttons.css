@@ -74,6 +74,7 @@
     font-size: 20px;
     transition: 0.3s;
     border-radius: 0.4em;
+    margin-top: 100px;
   }
   
 .footer_button:hover {

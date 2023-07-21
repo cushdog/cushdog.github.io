@@ -155,7 +155,7 @@ function App() {
           </div> */}
           <div className='pic_text_wrapper' id='typing_text'>
             <h1>Hey, I'm Tyler <br /> I'm a <span className='typed'></span></h1>
-            {/* <P5Sketch className="test_style" /> */}
+            
           </div>
 
 
@@ -256,6 +256,7 @@ function App() {
           </div>
             
           <footer className='bottom_thing'>
+            <P5Sketch className="p5_sketch" />
             <a href='#home'><button className='footer_button'>Top</button></a>
           </footer>
         </div>
