@@ -67,7 +67,7 @@ export default function MobileTabs() {
       </Box>
       <CustomTabPanel value={value} index={0}>
         <div className='slide-tab'>
-          <h1 className='job_title'>Course Assistant for CS 128 at UIUC</h1>
+          <h1 className='job_title' style={{paddingTop: '20px'}}>Course Assistant for CS 128 at UIUC</h1>
           <h3 className='job_date'>Fall 2022 - Present</h3>
           <ul className='tester_list'>
             <li className='job_desc'>Developed a grade management system with JavaScript that calculated class grades for the entire course</li>

@@ -177,7 +177,7 @@ function App() {
               <div className='wrappingimage'>
                 <img src={Car} alt='abt_pic' className='abt_picture'></img>
               </div>
-              <p className='abt_text'>I am currently an Undergraduate Research Assistant at the Illinois Geometry Lab, working with Radu's Algorithm as it relates to combinatorics. At the same time, I am pursuing a full-time Bachelor's of Science in Computer Science and Mathematics at the University of Illinois at Urbana-Champaign.
+              <p className='abt_text'>I am currently an Undergraduate Research Assistant at the <span className='highlighter_text'>Illinois Geometry Lab</span>, working with Radu's Algorithm to prove properties of partition functions. At the same time, I am pursuing a full-time Bachelor's of Science in <span className='highlighter_text'>Computer Science and Mathematics</span> at the <span className='highlighter_text'>University of Illinois at Urbana-Champaign</span>.
 
               Here are some technologies I have been working with:
               <ul>
@@ -217,7 +217,7 @@ function App() {
               <div className='desktop_card_wrapper'>
                 <Card image_test={collatz} title="Collatz Visualization" description="A matplotlib recreation of the visualization developed by Edmund-Harris to model the Collatz Conjecture" languages="Python, Matplotlib, Numpy, PySimpleGUI" github="https://github.com/zuyouchen/225-final-proj" image_link="https://imgur.com/a/Oi5BALj"/>
                 <Card image_test={elden} title="Elden Ring Speedrun Optimizer" description="A modified implementation of Djikstra's to calculate the fastest route through the popular game Elden Ring" languages="Python, C++, numpy, Matplotlib" github="https://github.com/zuyouchen/225-final-proj" image_link="https://imgur.com/ie9yTYX" />
-                <Card image_test={handdrawn} title="Handwritten Digit Recognition" description="A modified implementation of Djikstra's to calculate the fastest route through the popular game Elden Ring" languages="Python, C++, numpy, Matplotlib" github="https://github.com/zuyouchen/225-final-proj" image_link="https://imgur.com/vsed9tE" />
+                <Card image_test={handdrawn} title="Handwritten Digit Recognition" description="An introductory exercise to developing with Python-based machine learning libraries, trained on the MNIST dataset and developed with TensorFlow" languages="Python, numpy, TensorFlow" github="https://github.com/zuyouchen/225-final-proj" image_link="https://imgur.com/vsed9tE" />
               </div>
 
             </div>
