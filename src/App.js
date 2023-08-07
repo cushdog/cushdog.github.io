@@ -23,7 +23,7 @@ import './CSS/Card.css';
 import './CSS/tester.scss';
 
 import { useEffect } from 'react';
-import Resume from '../src/images/BloomingtonResume.pdf';
+import Resume from '../src/images/Resume.pdf';
 import Car from '../src/images/car.jpg'
 
 import "swiper/css";
