@@ -377,16 +377,13 @@ export default function VerticalTabs() {
           <h3 className="job_date">Fall 2023</h3>
           <ul className="tester_list">
             <li className="job_desc">
-              Working closely with Radu's Algorithm and its' application to
-              combinatorics/number theory
+            Working closely with Radu's Algorithm and its' application to combinatorics/number theory
             </li>
             <li className="job_desc">
-              Developing several solutions to various questions posed by this
-              algorithm in Mathematica
+            Automating several larger proofs of partition function properties in Mathematica
             </li>
             <li className="job_desc">
-              Processing and computing new and efficient solutions to proofs
-              that have existed on paper for some time
+            Using Radu's algorithm to discover new families of congruences as they relate to modular functions
             </li>
           </ul>
         </div>

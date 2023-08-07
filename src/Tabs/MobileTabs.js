@@ -78,7 +78,7 @@ export default function MobileTabs() {
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
         <div className='slide-tab'>
-          <h1 className='job_title' style={{paddingTop: '20px'}}>CS 173 Assistant @ UIUC</h1>
+          <h1 className='job_title' style={{paddingTop: '20px'}}>Course Assistant for CS 173 at UIUC</h1>
           <h3 className='job_date'>Spring 2023 - Present</h3>
           <ul className='tester_list'>
             <li className='job_desc'>Created tutoring approach that best fit each students' learning style</li>
@@ -94,8 +94,8 @@ export default function MobileTabs() {
           <h3 className='job_date'>Fall 2023</h3>
           <ul className='tester_list'>
             <li className='job_desc'>Working closely with Radu's Algorithm and its' application to combinatorics/number theory</li>
-            <li className='job_desc'>Developing several solutions to various questions posed by this algorithm in Mathematica</li>
-            <li className='job_desc'>Processing and computing new and efficient solutions to proofs that have existed on paper for some time</li>
+            <li className='job_desc'>Automating several larger proofs of partition function properties in Mathematica</li>
+            <li className='job_desc'>Using Radu's algorithm to discover new families of congruences as they relate to modular functions</li>
           </ul>
         </div>
       </CustomTabPanel>
