@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.66c2021a.css",
-    "main.js": "/static/js/main.74637154.js",
+    "main.js": "/static/js/main.35de6095.js",
     "static/js/787.7a700605.chunk.js": "/static/js/787.7a700605.chunk.js",
     "static/media/portrait.png": "/static/media/portrait.f1eb2d04f148752f0f6c.png",
     "static/media/roof.jpg": "/static/media/roof.56e5410e1a26fdce6c32.jpg",
@@ -15,11 +15,11 @@
     "static/media/MinecraftRegular-Bmg3.otf": "/static/media/MinecraftRegular-Bmg3.82ba08919dc2add9422f.otf",
     "index.html": "/index.html",
     "main.66c2021a.css.map": "/static/css/main.66c2021a.css.map",
-    "main.74637154.js.map": "/static/js/main.74637154.js.map",
+    "main.35de6095.js.map": "/static/js/main.35de6095.js.map",
     "787.7a700605.chunk.js.map": "/static/js/787.7a700605.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66c2021a.css",
-    "static/js/main.74637154.js"
+    "static/js/main.35de6095.js"
   ]
 }
