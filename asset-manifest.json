@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/final-site/static/css/main.5d373401.css",
-    "main.js": "/final-site/static/js/main.9305d1e4.js",
-    "static/js/787.7a700605.chunk.js": "/final-site/static/js/787.7a700605.chunk.js",
-    "static/media/portrait.png": "/final-site/static/media/portrait.f1eb2d04f148752f0f6c.png",
-    "static/media/roof.jpg": "/final-site/static/media/roof.56e5410e1a26fdce6c32.jpg",
-    "static/media/elden.png": "/final-site/static/media/elden.ca8a33cde0264509dedc.png",
-    "static/media/NTR-Regular.ttf": "/final-site/static/media/NTR-Regular.325a44bd3c015f909958.ttf",
-    "static/media/car.jpg": "/final-site/static/media/car.4b8c9b64466b7ea5888c.jpg",
-    "static/media/BloomingtonResume.pdf": "/final-site/static/media/BloomingtonResume.0f95e687f44e1fcc2327.pdf",
-    "static/media/Alata-Regular.ttf": "/final-site/static/media/Alata-Regular.a90e0970a7aca7d36f95.ttf",
-    "static/media/collatz.png": "/final-site/static/media/collatz.6ba7be9887a480cf09f3.png",
-    "static/media/MinecraftBold-nMK1.otf": "/final-site/static/media/MinecraftBold-nMK1.a9b3bc2a90dd462c9c18.otf",
-    "static/media/MinecraftRegular-Bmg3.otf": "/final-site/static/media/MinecraftRegular-Bmg3.82ba08919dc2add9422f.otf",
-    "index.html": "/final-site/index.html",
-    "main.5d373401.css.map": "/final-site/static/css/main.5d373401.css.map",
-    "main.9305d1e4.js.map": "/final-site/static/js/main.9305d1e4.js.map",
-    "787.7a700605.chunk.js.map": "/final-site/static/js/787.7a700605.chunk.js.map"
+    "main.css": "/static/css/main.e240a0c8.css",
+    "main.js": "/static/js/main.4fc98e0e.js",
+    "static/js/787.7a700605.chunk.js": "/static/js/787.7a700605.chunk.js",
+    "static/media/portrait.png": "/static/media/portrait.f1eb2d04f148752f0f6c.png",
+    "static/media/roof.jpg": "/static/media/roof.56e5410e1a26fdce6c32.jpg",
+    "static/media/elden.png": "/static/media/elden.ca8a33cde0264509dedc.png",
+    "static/media/NTR-Regular.ttf": "/static/media/NTR-Regular.325a44bd3c015f909958.ttf",
+    "static/media/car.jpg": "/static/media/car.4b8c9b64466b7ea5888c.jpg",
+    "static/media/BloomingtonResume.pdf": "/static/media/BloomingtonResume.0f95e687f44e1fcc2327.pdf",
+    "static/media/Alata-Regular.ttf": "/static/media/Alata-Regular.a90e0970a7aca7d36f95.ttf",
+    "static/media/collatz.png": "/static/media/collatz.6ba7be9887a480cf09f3.png",
+    "static/media/MinecraftBold-nMK1.otf": "/static/media/MinecraftBold-nMK1.a9b3bc2a90dd462c9c18.otf",
+    "static/media/MinecraftRegular-Bmg3.otf": "/static/media/MinecraftRegular-Bmg3.82ba08919dc2add9422f.otf",
+    "index.html": "/index.html",
+    "main.e240a0c8.css.map": "/static/css/main.e240a0c8.css.map",
+    "main.4fc98e0e.js.map": "/static/js/main.4fc98e0e.js.map",
+    "787.7a700605.chunk.js.map": "/static/js/787.7a700605.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d373401.css",
-    "static/js/main.9305d1e4.js"
+    "static/css/main.e240a0c8.css",
+    "static/js/main.4fc98e0e.js"
   ]
 }
