@@ -189,7 +189,7 @@ function App() {
                 <li className='about_bullets'>HTML & CSS</li>
               </ul>
               
-  Outside of school, I'm interested in following the developments of science, and reading a lot of comics. You might also find me filling up my Github with personal projects</p>
+  Outside of school, I'm interested in following the developments of science, and reading a lot of comics. You might also find me filling up my Github with personal projects. <a style={{ color: '#64ffda' }} href={Resume}>Here's my resume</a> </p>
             </div>
           </section>
 

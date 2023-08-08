@@ -331,7 +331,7 @@ export default function VerticalTabs() {
       </Tabs>
       <TabPanel value={value} index={0}>
         <div className="slide-tab">
-          <h1 className="job_title">Course Assistant for CS 128 at UIUC</h1>
+          <h1 className="job_title">Course Assistant for Intro to Computer Science II at UIUC</h1>
           <h3 className="job_date">Fall 2022 - Present</h3>
           <ul className="tester_list">
             <li className="job_desc">
@@ -350,7 +350,7 @@ export default function VerticalTabs() {
       </TabPanel>
       <TabPanel value={value} index={1}>
         <div className="slide-tab">
-          <h1 className="job_title">Course Assistant for CS 173 at UIUC</h1>
+          <h1 className="job_title">Course Assistant for Discrete Structures at UIUC</h1>
           <h3 className="job_date">Spring 2023 - Present</h3>
           <ul className="tester_list">
             <li className="job_desc">
@@ -373,7 +373,7 @@ export default function VerticalTabs() {
       </TabPanel>
       <TabPanel value={value} index={2}>
         <div className="slide-tab">
-          <h1 className="job_title">Undergraduate Research Assistant @ IGL</h1>
+          <h1 className="job_title">Undergraduate Research Assistant at Illinois Geometry Lab</h1>
           <h3 className="job_date">Fall 2023</h3>
           <ul className="tester_list">
             <li className="job_desc">
